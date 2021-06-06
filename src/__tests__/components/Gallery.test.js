@@ -33,7 +33,9 @@ describe('<Gallery />', () => {
             { farm: 'farmTest04', server: 'serverTest', id: 'testId04', secret: 'ñlkkjhhñl', title: 'titleTest04' }
         ];
 
-        component.update(<Gallery data={data} />);
+        // act(() => {
+            component.update(<Gallery data={data} />);
+        //  })
 
         // console.log('props', component.root.findAllByType(Image)[0].props)
 
